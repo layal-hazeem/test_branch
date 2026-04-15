@@ -6,4 +6,6 @@ class Masa {
     required this.name,
     required this.yes,
   });
+
+  void nothing(){}
 }
