@@ -13,4 +13,6 @@ class Masa {
     required this.des,
     required this.age,
   });
+
+  void nothing(){}
 }
