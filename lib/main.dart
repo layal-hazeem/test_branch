@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  print("Hello from joudyy ");
+
   runApp(const MyApp());
   print('branch of Masa');
 }
@@ -8,10 +10,15 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Test "),
+        ),
+        body: const Center(
+          child: Text("Hello "),
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -114,11 +121,6 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text('JOUDY'),
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
       ),
     );
   }
