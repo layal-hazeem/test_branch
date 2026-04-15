@@ -11,4 +11,6 @@ class Masa {
     required this.name_joudy,
     required this.age,
   });
+  String des;
+  Masa({required this.name, required this.yes, required this.name_joudy,required this.des});
 }
