@@ -3,14 +3,6 @@ class Masa {
   String name;
   int name_joudy;
   bool yes;
-  int age;
-
-  Masa({
-    required this.name,
-    required this.yes,
-    required this.name_joudy,
-    required this.age,
-  });
   String des;
   Masa({required this.name, required this.yes, required this.name_joudy,required this.des});
 }
