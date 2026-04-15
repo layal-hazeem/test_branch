@@ -3,6 +3,6 @@ class Masa {
   String name;
   int name_joudy;
   bool yes;
-  
-  Masa({required this.name, required this.yes, required this.name_joudy});
+  String des;
+  Masa({required this.name, required this.yes, required this.name_joudy,required this.des});
 }
